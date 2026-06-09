@@ -1,4 +1,9 @@
 /* The code below centers the text of all h1's on the page. */
+
+
+:root {
+    --box: #a48ab4;
+}
 h1 {
     text-align:center;
 }
@@ -16,6 +21,9 @@ h2 {
     text-align:center;
 }
 
+.big-head {
+    background-color:#a48ab4;
+}
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
     display:flex;
@@ -30,45 +38,63 @@ h2 {
 
 .two-head {
       text-align: center;
-      font-size: 19px;
+      font-size: 23px;
       font-weight: normal;
     }
-    .section-un {
-  border: 2px solid rgb(104, 180, 212); 
-  padding: 15px;           
-  background-color: #afe7f0;
-display: block;
-margin-left: 0%;
-margin-right: 2.5%;
-width: 400px; }
+.section-un { 
+    padding: 1%;           
+    background-color:var(--box);
+    display: block;
+    margin-left: 0%;
+    margin-right: 2.5%;
+    width: 400px; 
+}
 
-  .section-do {
-  border: 2px solid rgb(104, 180, 212); 
-  padding: 15px;           
-  background-color: #afe7f0;
+  .section-do { 
+  padding: 1%;           
+  background-color:var(--box);
   display:block;
   margin-left:2.5%;
   margin-right:2.5%;
   width:400px}
 
   .section-tre {
-  border: 2px solid rgb(104, 180, 212); 
-  padding: 15px;           
-  background-color: #afe7f0; 
+  padding: 1%;           
+  background-color: var(--box); 
   display: block;
   margin-left:2.5%;
   margin-right: 2.5%;
   width: 400px;
 }
 
+
+
   img {display: block;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+    opacity: .5;
+    width: 500px}
 
   body{
     font-family:Georgia, 'Times New Roman', Times, serif; 
-    color: rgb(104, 180, 212)}
+    color: #5e3774;
+    font-size: 20px;
+    padding: 3%;}
 
-.mood-button {
-    background-color: rgb(11, 170, 255);
+button {
+    background-color: #5e3774;
+    padding: 4%;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    cursor: grab;
+    transition: transform 0.1s ease-in-out;
+}
+button:hover{
+    transform:scale(1.03);
+    font-weight: bold;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
