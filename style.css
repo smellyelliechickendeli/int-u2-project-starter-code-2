@@ -11,6 +11,60 @@ h1 {
     text-align:center;
 }
 
+.xtra-1nfo {
+    color:#5e3774;
+    font-style: none;
+    line-height: 35px;
+    text-align: left;
+}
+
+.imges{
+    display:inline-block;
+    display: flex;
+}
+.man {
+    gap: 5px;
+    width: 33%;
+}
+.woman {
+    gap: 5px;
+    width: 33%;
+}
+
+.asian-woman{
+    gap: 5px;
+    width: 33%;
+}
+.young {
+    cursor: grab;
+    translate: 0.07s ease-in-out;
+}
+.young:hover{
+    font-weight: bold;
+}
+.five-ways{
+    cursor: grab;
+    translate: 0.07s ease-in-out;
+}
+.five-ways:hover{
+    font-weight: bold;
+}
+
+.benefits{
+    cursor: grab;
+    translate: 0.07s ease-in-out;
+}
+.benefits:hover{
+    font-weight: bold;
+}
+.four-sec{
+    background-color: #a48ab4;
+    border-radius: 8px;
+    padding: 3%;
+    height: inherit;
+    display: flex;
+
+}
 /* The code below centers all images on the page and gives them a width of 400px. */
 .navbar {
     text-decoration: none;
@@ -30,6 +84,9 @@ h3 {
     text-align: center;
     font-size: 25px;
 }
+ .xtra {
+    text-align: left;
+ }
 
 .big-title {
     background-color: #dbd1e1;
@@ -98,11 +155,9 @@ h3 {
     transform: scale(1.06)
 }
 
-
-
   img {
     margin: 0%;
-    opacity: .8;
+    opacity: .9;
     max-width: 100%;
     height: auto}
 
@@ -132,7 +187,7 @@ button:hover{
     font-weight: bold;
 }
 a{
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -163,3 +218,4 @@ a{
     transform: translateY(-3px);
     color:rgb(226, 226, 226);
 }
+
